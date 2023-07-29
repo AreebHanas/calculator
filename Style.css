@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#0a0a0a,#3a4452) ;
+}
+.Calculator{
+    border: 1px solid#717377;
+    background: linear-gradient(45deg,#0a0a0a,#3a4452) ;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15pc rgba(113, 115, 119,0.5);
+    grid-template-columns: repeat(4);                  
+}
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84,84,84,0.1);
+    font-size: 40px;
+    text-align: right;
+    color:antiquewhite;
+}
+input::placeholder{
+    color: #ffffff;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+button:hover{
+    background-color: gray;
+    margin: 6px;
+    width: 67px;
+    height: 67px;
+}
+.eqlBttn:hover{
+    margin: 5px;
+    width: 3.9cm;
+    height: 67px;
+}
+.eqlBttn{
+    width: 3.8cm;
+    border-radius: 30px;
+    background-color: orangered;
+}
+.Color{
+    background-color: #717271;
+    color: black
+}
+.eqlBttn1{
+    background-color: orangered;
+    color: black;
+}
